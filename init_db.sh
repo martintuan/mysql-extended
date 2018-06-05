@@ -1,5 +1,5 @@
  #!/bin/bash 
  /usr/bin/mysqld_safe & sleep 5 
- mysql -u root -e "CREATE DATABASE mydb" 
- mysql -u root mydb < /tmp/dump.sql 
+ mysql -u root -e "CREATE DATABASE crlonline;" 
+ mysql -u root crlonline < /tmp/test.sql 
 
